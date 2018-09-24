@@ -1,12 +1,12 @@
 <table class=”table”>
     <thead>
         <tr>
-            <th>Id</th>
-            <th>Nome</th>
-            <th>Preço</th>
-            <th>Preço com desconto</th>
-            <th>Descrição</th>
-            <th>Ações</th>
+            <th><?= __('Id') ?></th>
+            <th><?= __('Nome') ?></th>
+            <th><?= __('Preço') ?></th>
+            <th><?= __('Preço com desconto')?></th>
+            <th><?= __('Descrição')?></th>
+            <th><?= __('Ações')?></th>
         </tr>
     </thead>
 
@@ -26,7 +26,7 @@
                 <?php
                     echo $this->Form->postLink('Apagar', ['controller'=>'produtos',
                         'action'=>'apagar', $produto['id']],
-                        ['confirm'=>'Tem certeza que deseja apagar o produto '.$produto['nome'].'?']);
+                        ['confirm'=> __('Tem certeza que deseja apagar o produto ').$produto['nome'].'?']);
                 ?>
             </td>
         </tr>
@@ -35,6 +35,15 @@
 </table>
 
 <?php
-    echo $this->Html->Link('Novo Produto', ['controller'=>'produtos', 'action'=>'novo']);
-    echo $this->Html->Link('Logout', ['controller'=>'Users', 'action'=>'logout']);
+    echo $this->Html->Link(__('Novo Produto'), ['controller'=>'produtos', 'action'=>'novo']);
+    echo $this->Html->Link(__('Logout'), ['controller'=>'Users', 'action'=>'logout']);
 ?>
+<div class="paginator">
+    <ul class="pagination">
+        <?php
+            echo $this->Paginator->prev(__('Voltar'));
+            echo $this->Paginator->numbers();
+            echo $this->Paginator->next(__('Avançar'));
+        ?>
+    </ul>
+</div>

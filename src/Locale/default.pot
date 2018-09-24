@@ -1,0 +1,102 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-09-24 14:58+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ContatoController.php:12
+msgid "Email enviado com sucesso"
+msgstr ""
+
+#: Controller/ContatoController.php:14
+msgid "Falha ao enviar o Email"
+msgstr ""
+
+#: Controller/ProdutosController.php:46
+msgid "Produto removido com sucesso"
+msgstr ""
+
+#: Controller/ProdutosController.php:49
+msgid "Erro ao deletar produto"
+msgstr ""
+
+#: Controller/ProdutosController.php:62
+msgid "Produto salvo com sucesso"
+msgstr ""
+
+#: Controller/ProdutosController.php:65
+msgid "Erro ao salvar produto"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Produtos/index.ctp:4
+msgid "Id"
+msgstr ""
+
+#: Template/Produtos/index.ctp:5
+msgid "Nome"
+msgstr ""
+
+#: Template/Produtos/index.ctp:6
+msgid "Preço"
+msgstr ""
+
+#: Template/Produtos/index.ctp:7
+msgid "Preço com desconto"
+msgstr ""
+
+#: Template/Produtos/index.ctp:8
+msgid "Descrição"
+msgstr ""
+
+#: Template/Produtos/index.ctp:9
+msgid "Ações"
+msgstr ""
+
+#: Template/Produtos/index.ctp:29
+msgid "Tem certeza que deseja apagar o produto "
+msgstr ""
+
+#: Template/Produtos/index.ctp:38
+msgid "Novo Produto"
+msgstr ""
+
+#: Template/Produtos/index.ctp:39
+msgid "Logout"
+msgstr ""
+
+#: Template/Produtos/index.ctp:44
+msgid "Voltar"
+msgstr ""
+
+#: Template/Produtos/index.ctp:46
+msgid "Avançar"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+

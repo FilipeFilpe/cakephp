@@ -1,3 +1,7 @@
+<?php
+    echo $this->Flash->render('auth');
+?>
+
 <h1>Acesso ao sistema</h1>
 
 <?php

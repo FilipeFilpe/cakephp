@@ -5,10 +5,11 @@ use Cake\ORM\TableRegistry;
 use Cake\Event\Event;
 
 class UsersController extends AppController {
-    public function beforeFIlter(Event $event) {
-        parent::beforeFIlter($event);
 
-        $this->Auth->allow(['adicionar', 'users']);
+    public function beforeFilter(Event $event) {
+        parent::beforeFilter($event);
+
+        $this->Auth->allow(['adicionar', 'salvar']);
     }
 
     public function adicionar() {
@@ -32,7 +33,7 @@ class UsersController extends AppController {
             $this->Flash->set('Erro ao cadastrar usuário');
         }
 
-        $this->redirect('Users/adicionar');
+        $this->redirect('Users/login');
     }
 
     public function login() {
